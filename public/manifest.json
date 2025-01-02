@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Teton Cognify Demo Injector",
+  "version": "1.0",
+  "description": "Insert custom HTML into the web page to run the Teton Cognify Demo.",
+  "permissions": ["activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Teton Cognify Demo Injector",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
