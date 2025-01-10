@@ -1,6 +1,6 @@
 {
-  "name": "teton-cognify-demo-injector",
-  "description": "Chrome plugin Insert custom HTML into the web page to run the Teton Cognify Demo.",
+  "name": "teton-envision-demo-injector",
+  "description": "Chrome plugin Insert custom HTML into the web page to run the Teton Envision Demo.",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
