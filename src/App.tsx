@@ -53,7 +53,7 @@ const App = () => {
             label: `Info`,
             key: "info",
             icon: <InfoCircleOutlined />,
-            children: `Teton Cognify Demo Injector. This plugin allows to insert custom code into the web page to run the Teton Cognify Demo`,
+            children: `Teton Envision Demo Injector. This plugin allows to insert custom code into the web page to run the Teton Envision Demo`,
           },
         ]}
       />
